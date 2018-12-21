@@ -5,6 +5,7 @@
 #include <msp430.h>
 #include <math.h>
 #include <string.h>
+#include "custom/display.h"
 
 /* Peripherals.c and .h are where the functions that implement
  * the LEDs and keypad, etc are. It is often useful to organize
@@ -12,6 +13,7 @@
  * You include the header associated with that file(s)
  * into the main file of your project. */
 #include "peripherals.h"
+
 
 // Function Prototypes
 void swDelay(char numLoops);
