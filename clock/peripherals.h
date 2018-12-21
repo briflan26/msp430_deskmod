@@ -58,9 +58,6 @@
 #define DAC_SPI_CLK_SRC		(UCSSEL__SMCLK)
 #define DAC_SPI_CLK_TICKS	0
 
-// Globals
-extern tContext g_sContext;	// user defined type used by graphics library
-
 // Prototypes for functions defined implemented in peripherals.c
 
 //void DACInit(void);

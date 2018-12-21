@@ -3,7 +3,11 @@
  * This file will contain all display related functions.
  */
 
-#include "custom/display.h"
+#include "display.h"
+
+// TODO create constants for rectangles
+// TODO create macros for rectangels that take the pos as an input
+// need rects for a, b, c, d, e, f, g
 
 void configure_display(void)
 {
@@ -26,4 +30,8 @@ void configure_display(void)
     Graphics_setFont(&g_sContext, &g_sFontFixed6x8);
     Graphics_clearDisplay(&g_sContext);
     Graphics_flushBuffer(&g_sContext);
+}
+
+Graphics_Rectangle getSevenSegRect(int digit, char position){
+
 }
